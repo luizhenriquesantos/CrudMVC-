@@ -1,0 +1,16 @@
+{
+    "name": "luizhenrique/crud-mvc",
+    "description": "crud com php e arquitetura mvc e poo",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Luizhenrique\\CrudMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luiz Henrique"
+        }
+    ],
+    "require": {}
+}
