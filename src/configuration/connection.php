@@ -17,7 +17,7 @@ class Connect{
     {
 
         try{
-            $this->connection = new PDO('mysql:host='.HOST.';dbaname='.DATABASENAME,USER,PASSWORD);
+            $this->connection = new PDO('mysql:host='.HOST.';dbaname='.DATABASE,USER,PASSWORD);
            }
 
            catch(PDOException)
@@ -29,8 +29,6 @@ class Connect{
         }
      }
 
-     $testConnection = new Connection;
+     $testConnection = new Connect;
      
-    
-
 ?>
